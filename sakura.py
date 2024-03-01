@@ -24,11 +24,11 @@ photos=[
         tk.PhotoImage(file='sakura5.png'),
 ]
 names=[
-        "千鳥ヶ淵",
-        "井の頭恩賜公園",
-        "中目黒目黒川",
-        "六本木ヒルズ",
-        "新宿御苑"
+        "千鳥ヶ淵(千代田区)",
+        "井の頭恩賜公園(武蔵野市)",
+        "中目黒目黒川(目黒区)",
+        "六本木ヒルズ(港区)",
+        "新宿御苑(新宿区)"
         
         ]
 canvas.create_image(320,213,image=photos[index],tag='p1')
