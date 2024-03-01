@@ -26,16 +26,16 @@ photos=[
         
 ]
 names=[
-        "千鳥ヶ淵(千代田区)",
-        "井の頭恩賜公園(武蔵野市)",
-        "目黒川(目黒区)",
-        "六本木ヒルズ(港区)",
-        "新宿御苑(新宿区)",
-        "上野恩賜公園(台東区)"
+        "【東京・桜の名所】①千鳥ヶ淵(千代田区)",
+        "【東京・桜の名所】②井の頭恩賜公園(武蔵野市)",
+        "【東京・桜の名所】③目黒川(目黒区)",
+        "【東京・桜の名所】④六本木ヒルズ(港区)",
+        "【東京・桜の名所】⑤新宿御苑(新宿区)",
+        "【東京・桜の名所】⑥上野恩賜公園(台東区)"
 ]
 canvas.create_image(320,213,image=photos[index],tag='p1')
 btn=tk.Button(text='次へ',command=btn_next)
 btn.pack(ipadx=10,ipady=5)
-text_label = tk.Label(root, text="千鳥ヶ淵(千代田区)", font=("Helvetica", 16), bg="aquamarine")
+text_label = tk.Label(root, text="【東京・桜の名所】①千鳥ヶ淵(千代田区)", font=("Helvetica", 16), bg="aquamarine")
 text_label.pack()
 root.mainloop()
