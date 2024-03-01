@@ -12,7 +12,7 @@ def btn_next():
 
 root=tk.Tk()
 root.geometry('700x560')
-root['bg']='lightblue'
+root['bg']='lightgreen'
 
 canvas=tk.Canvas(root,width=640,height=426,bd=0,highlightthickness=0,relief='ridge')
 canvas.pack(pady=20)
